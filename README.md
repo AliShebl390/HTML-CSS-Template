@@ -1,2 +1,2 @@
 # Practice
-This is a repo for practicing HTML + CSS 
+This repo for practicing HTML + CSS 
