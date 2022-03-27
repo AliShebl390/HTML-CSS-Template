@@ -39,7 +39,31 @@ body {
     width: 1170px;
   }
 }
-/* End Global Rules */
+/* End Global Rules*/
+/* Start Componants */
+.special-heading{
+  color: #ebeced;
+  font-size: 6.25rem;
+  text-align: center;
+  font-weight: 800;
+  letter-spacing: -3px;
+  margin: 0;
+}
+.special-heading + p {
+  margin: -30px 0 0;
+  font-size: 1.1rem;
+  text-align: center;
+  color: #797979;
+}
+@media (max-width: 767px) {
+  .special-heading  {
+    font-size: 3.75rem;
+  }  
+  .special-heading + p {
+    margin-top: -20px;
+  } 
+}
+/* End Componants */
 /* Start Header */
 .header {
   padding: 20px;
@@ -133,6 +157,7 @@ body {
   top: 50%;
   transform: translate(-50% , -50%);
   text-align: center;
+  min-width: fit-content;
 }
 .landing .intro-text h1{
   margin: 0;
@@ -162,7 +187,7 @@ body {
 }
 .features .feat i {
   color: var(--main-color);
-  font-size: 40px;
+  font-size: 3rem;
 }
 .features .feat h3{
   font-weight: 800;
@@ -170,8 +195,13 @@ body {
 }
 .features .feat p{
   text-align: center;
-  line-height: 1.8;
+  line-height: 1.5;
   color: #777;
   font-size: 1.1rem;
 }
 /* End Features */
+/* Start Service */
+.services{
+  
+}
+/* End Service */
